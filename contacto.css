@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Titan+One&display=swap');
+/*CSS Reset*/ 
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navegador*/
+header{
+    width: 100%;
+    height: 140vb;
+    background-image:url(img/POLIDEPORTIVO-TOLEDO.jpeg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    height: 100px;
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width:30px ;
+    margin: 20px;;
+}
+.bar-btn{
+    font-size: 25px;
+    color: blue;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height:100vh ;
+    top: 80px;
+    background:rgba(87, 156, 226, 0.841) ;
+    text-align: center;
+    transition: all 0.5s;
+}
+.nav-menu li{
+    display: block;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all 0.5s;
+}
+.nav-menu li a {
+    color:rgb(10, 2, 46);
+    font-size: 80px;
+    text-transform:unset;
+    font-weight: 600;
+    padding: 7px 20px;
+
+}
+.nav-menu li a.active{
+    color:white;
+    transition: 0.5s;
+    
+}
+
+.nav-menu li a:hover{
+    color:white;
+    transition: 0.5s;
+    background-color:rgba(30, 40, 60, 0.95);
+}
+
+#check{
+    display:block;
+}
+#check:checked ~ .nav-menu{
+    height: 100vp;
+}
+#check:checked ~ .nav-menu{
+   display: block;
+   left:0;
+}
+
+.logo{
+    margin-left: 0;
+    
+}
+
+header{
+    height: 100vp;
+}
+nav{
+    height: 100px;
+    margin:0 auto;
+
+}
+.bar-btn{
+    display: none;
+
+}
+.nav-menu{
+    position: relative;
+    height: 80px;
+    top: 0;
+    background:rgba(29, 204, 235, 0.601);
+    transition: all 0.5;
+    text-align: center;
+    margin: 50px;
+}
+.nav-menu li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: all 0.5;
+}
+
+.nav-menu li a {
+    font-size: 18px;
+    padding: 7px 20px
+}
+
+.nav-menu li a.active{
+    color:rgba(30, 40, 60, 0.95);
+    transition: 0.5s;
+}
+
+.nav-menu li a:hover{
+    color:white;
+    transition: 0.5s;
+    background-color: rgba(30, 40, 60, 0.95);
+}
+ h2{
+    color:rgb(1, 25, 3);
+    font-style: 60px;
+    background: rgba(5, 194, 237, 0.584);
+    display:block;
+    margin-left: 30px;
+    width: 30%;
+ }
+h3{
+    color:rgb(1, 25, 3);
+    font-style: 60px;
+    background:rgba(158, 224, 239, 0.584);
+    display:block;
+    margin-left: 30px;
+    width: 30%; 
+}
+.field {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background: rgba(158, 224, 239, 0.584);
+    width: 30%;
+    border-radius: 8%;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 18px;
+    color: #120101;
+    border-radius: 8%;
+    margin-left: 20px;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-left: 20px;
+    border-radius: 8px;
+    font-size: 17px;
+
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 18px;
+    background-color: #4475aa;
+    color: #fff;
+    border-radius:8px;
+    margin-left: 180px;
+  }
+  iframe{
+    margin-left: 50px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 15px;
+    background:rgb(94, 170, 225);
+    border-top: 1px solid black;
+  }
+  textarea {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-left: 20px;
+    border-radius: 8px;
+    font-size: 17px;
+
+}

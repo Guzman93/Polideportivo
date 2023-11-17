@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Titan+One&display=swap');
+/*CSS Reset*/ 
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navegador*/
+header{
+    width: 100%;
+    height: 100vb;
+    background-image:url(img/Voley\ 2023.jpg) ;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    height: 100px;
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width:30px ;
+    margin: 20px;;
+}
+.bar-btn{
+    font-size: 25px;
+    color: blue;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height:100vh ;
+    top: 80px;
+    background:rgba(9, 25, 146, 0.95) ;
+    text-align: center;
+    transition: all 0.5s;
+}
+.nav-menu li{
+    display: block;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all 0.5s;
+}
+.nav-menu li a {
+    color:rgb(10, 2, 46);
+    font-size: 80px;
+    text-transform:unset;
+    font-weight: 600;
+    padding: 7px 20px;
+
+}
+.nav-menu li a.active{
+    color:white;
+    transition: 0.5s;
+    
+}
+
+.nav-menu li a:hover{
+    color:white;
+    transition: 0.5s;
+    background-color:rgba(30, 40, 60, 0.95);
+}
+
+#check{
+    display:block;
+}
+#check:checked ~ .nav-menu{
+    height: 100vp;
+}
+#check:checked ~ .nav-menu{
+   display: block;
+   left:0;
+}
+
+.logo{
+    margin-left: 0;
+    
+}
+
+header{
+    height: 100vp;
+}
+nav{
+    height: 100px;
+    margin:0 auto;
+
+}
+.bar-btn{
+    display: none;
+
+}
+.nav-menu{
+    position: relative;
+    height: 80px;
+    top: 0;
+    background:rgba(60, 79, 223, 0.508) ;
+    transition: all 0.5;
+    text-align: center;
+    margin: 50px;
+}
+.nav-menu li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: all 0.5;
+}
+
+.nav-menu li a {
+    font-size: 18px;
+    padding: 7px 20px
+}
+
+.nav-menu li a.active{
+    color:rgba(30, 40, 60, 0.95);
+    transition: 0.5s;
+}
+
+.nav-menu li a:hover{
+    color:white;
+    transition: 0.5s;
+    background-color: rgba(30, 40, 60, 0.95);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.banner-text{
+    padding-top: 150px;
+   
+    
+}
+.banner-text h1{
+    font-size: 55px;
+    font-family: 'Rampart One', sans-serif;
+}
+.banner-text h3{
+    font-size: 30px;
+}
+.banner-text p{
+    padding: 30 px 200px ;
+    
+}
+.banner-text{
+    padding-top: 5px;
+    text-align:right;      
+}
+
+.banner-text h1{
+    color:rgba(1, 10, 23, 0.996);
+    font-style: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+.banner-text h3{
+    color:rgb(7, 30, 240);
+    font-style: 30px;
+    background: rgba(234, 235, 154, 0.95); 
+    display: inline-block;
+}
+
+.banner-text p{
+    color:rgb(219, 234, 10);
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bolder;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 15px;
+    background:rgb(94, 116, 225);
+    border-top: 1px solid black;
+  }
