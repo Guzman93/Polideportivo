@@ -33,18 +33,18 @@
             <form id="form">
                 <div class="field">
                   <label for="from_name">Nombre</label>
-                  <input type="text" name="from_name" id="from_name">
+                  <input type="text" name="from_name" id="from_name" required minlength="3" maxlength="9">
                 </div>
                 <div class="field">
                   <label for="message">Mensaje</label>
-                  <textarea name="Mensaje" id="message"></textarea>
+                  <textarea type="text" name="Mensaje" id="message" required minlength="2" maxlength="120"></textarea>
                 </div>
                 <div class="field">
                   <label for="email_id">Email</label>
-                  <input type="text" name="email_id" id="email_id">
+                  <input type="email" required name="email_id" id="email_id">
                 </div>
                 <input type="submit" id="button" value="Enviar" >
-              </form> <br><br> 
+              </form> <br><br>
               <div>
                 <h2>Telefono de Administración</h2>
                 <h3>351-4905623</h3>
